@@ -1,4 +1,16 @@
 {
+    "chronos": {
+        "branch": "master",
+        "description": "Haskell time library focusing on performance ",
+        "homepage": null,
+        "owner": "mxgr7",
+        "repo": "chronos",
+        "rev": "7587f3f4ac93800bd0f24b7e60115458fca955ef",
+        "sha256": "1is0l03jaal7vl5gcfydlps7jgcxr75rjnxny1i6wm0l3h7rqqqy",
+        "type": "tarball",
+        "url": "https://github.com/mxgr7/chronos/archive/7587f3f4ac93800bd0f24b7e60115458fca955ef.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "interval": {
         "branch": "main",
         "description": "Haskell library for finite and infinite intervals of any ordered type",
@@ -11,16 +23,28 @@
         "url": "https://github.com/mxgr7/interval/archive/012388c1c221bb47ca2b03f3eec5cf8048730e26.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     },
+    "nixpkgs": {
+        "branch": "master",
+        "description": "Nix Packages collection",
+        "homepage": "",
+        "owner": "nixos",
+        "repo": "nixpkgs",
+        "rev": "554d2d8aa25b6e583575459c297ec23750adb6cb",
+        "sha256": "0pladrgnhax9rwrk6ffrvya6xzypr5dw5qsxxmkkjcnxqqx9qmcp",
+        "type": "tarball",
+        "url": "https://github.com/nixos/nixpkgs/archive/76daf3b9daa76829294c213d2f66ff266da79555.tar.gz",
+        "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
+    },
     "yahp": {
         "branch": "main",
         "description": "yet another Haskell prelude",
         "homepage": null,
         "owner": "mxgr7",
         "repo": "yahp",
-        "rev": "78a12434bd8dcc00c942fea07e4cdcf19ab596b6",
-        "sha256": "1xf03sfmbhw0zn93dza183kwjfb22qy1zbmrin4ly6676iqha4hr",
+        "rev": "629e68743c373fc4a9289851c5fec4596f0f9e8f",
+        "sha256": "1684cbdsn9ycxldskxizx8hwq5dyx562dg1ah4gnqc3gqp5xjzp1",
         "type": "tarball",
-        "url": "https://github.com/mxgr7/yahp/archive/78a12434bd8dcc00c942fea07e4cdcf19ab596b6.tar.gz",
+        "url": "https://github.com/mxgr7/yahp/archive/629e68743c373fc4a9289851c5fec4596f0f9e8f.tar.gz",
         "url_template": "https://github.com/<owner>/<repo>/archive/<rev>.tar.gz"
     }
 }

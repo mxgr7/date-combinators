@@ -42,3 +42,4 @@ TAGS
 *.sqlite-wal
 cabal.project.local
 result
+Comp.hs

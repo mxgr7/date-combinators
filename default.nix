@@ -9,7 +9,11 @@ pkgs.haskellPackages.developPackage {
       yahp = self.callCabal2nix "yahp" sources.yahp {};
       interval = self.callCabal2nix "interval" sources.interval {};
     };
+    source-overrides = {
+      vector-algorithms = "0.9.0.1";
+      chronos = sources.chronos;
+    };
     modifier = with pkgs.haskell.lib; drv:
       disableLibraryProfiling (dontHaddock (addBuildTools drv
-        (with pkgs.haskellPackages; [ cabal-install ghcid])));
+        (with pkgs.haskellPackages; [cabal-install ghcid])));
   }
